@@ -1,0 +1,5 @@
+export FLASK_APP=stream_video.py
+flask run --host=127.0.0.1
+
+export FLASK_APP=stream_hum_counter_v1.py
+flask run --host=10.0.0.10
